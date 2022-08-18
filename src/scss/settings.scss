@@ -1,0 +1,36 @@
+// Settings
+
+html{
+  overflow-x: hidden;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}
+
+p{
+  margin: 0;
+}
+
+body{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  overflow-x: hidden;
+  width: 100%;
+}
+
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+ul,
+li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
