@@ -1,0 +1,41 @@
+.btn{
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 36px;
+
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+  span{
+    display: inline-block;
+    padding: 17px 57px 15px 17px;
+    background-color: #4AF6CD;
+    margin-left: 19px;
+    position: relative;
+
+    &::before{
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 1px;
+      background-color: #fff;
+      top: 50%;
+      left: -10px;
+
+    }
+
+    &::after{
+      position: absolute;
+      content: "";
+      width: 25px;
+      height: 21px;
+      right: 17px;
+      top: 50%;
+      transform: translateY(-50%);
+
+      background-image: url("../img/arrow-right.svg");
+    }
+  }
+
+}

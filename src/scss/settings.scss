@@ -1,0 +1,42 @@
+// Settings
+
+html{
+
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}
+
+a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+p{
+  margin: 0;
+}
+
+body{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #171919;
+
+  overflow-x: hidden;
+  width: 100%;
+}
+
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+ul,
+li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
