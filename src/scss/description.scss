@@ -1,0 +1,17 @@
+.description{
+  display: inline-block;
+
+  &__head{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 86px;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    span{
+      font-weight: 100;
+    }
+  }
+}

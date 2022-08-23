@@ -30,5 +30,13 @@ $(function () {
         focusOnSelect: true,
         asNavFor: '.surf-slider'
     });
+
+    $('.travel__slider').slick({
+        fade: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        prevArrow: '<img class="slider-arrows slider-arrows__left" src="img/arrow-left.svg" alt="arrow-left">',
+        nextArrow: '<img class="slider-arrows slider-arrows__right" src="img/arrow-right.svg" alt="arrow-right">'
+    })
 });
 

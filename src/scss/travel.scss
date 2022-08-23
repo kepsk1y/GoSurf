@@ -1,0 +1,114 @@
+.travel{
+  background-image: url(../img/cup-of-tea.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: auto;
+  
+  padding: 160px 0 270px;
+
+  .slider-arrows{
+    top: 240px;
+    opacity: .25;
+
+    &__left{
+      right: 75px;
+    }
+
+    &__right{
+      right: 33px;
+    }
+  }
+}
+
+.travel-slider{
+  &__head{
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top left;
+    min-height: 780px;
+  }
+  &__description{
+    padding-top: 160px;
+    padding-left: 180px;
+    margin-top: -240px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right center;
+    min-height: 250px;
+
+    img{
+      padding-left: 26px;
+    }
+  }
+
+  &__subtitle{
+    text-align: right;
+    padding-right: 34px;
+    padding-top: 132px;
+  }
+}
+
+.travel-slider__btn{
+  text-align: center;
+}
+
+.travel-slider__info-item{
+  min-height: 200px;
+  margin-bottom: 66px;
+  position: relative;
+}
+
+.travel-slider__info{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 169px;
+
+  &-subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    white-space: nowrap;
+
+    position: absolute;
+    top: 97px;
+    left: -97px;
+    width: 200px;
+    height: 0;
+
+    text-align: right;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+    color: rgba(#FFFFFF, .5);
+
+    transform: rotate(-90deg);
+  }
+
+  &-title{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 36px;
+    padding-left: 40px;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    span{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 36px;
+
+      position: absolute;
+      top: 28px;
+      right: -7px;
+
+      letter-spacing: 5.25px;
+      text-transform: uppercase;
+
+      color: #FFFFFF;
+
+      opacity: 0.75;
+    }
+  }
+}
