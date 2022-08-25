@@ -2,6 +2,8 @@
   display: inline-block;
 
   &__head{
+    position: relative;
+    padding-right: 155px;
     font-weight: 800;
     font-size: 40px;
     line-height: 86px;
@@ -9,6 +11,20 @@
     text-transform: uppercase;
 
     color: #FFFFFF;
+
+    .travel__star-list{
+      position: absolute;
+      right: -66px;
+      top: 12px;
+      li{
+        display: inline-block;
+        margin-left: -40px;
+      }
+
+      img{
+        position: static;
+      }
+    }
 
     span{
       font-weight: 100;

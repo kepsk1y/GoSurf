@@ -3,8 +3,12 @@
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: auto;
-  
+
   padding: 160px 0 270px;
+
+  &.sleep{
+    background-image: url(../img/flover.png);
+  }
 
   .slider-arrows{
     top: 240px;
@@ -35,6 +39,7 @@
     background-size: auto;
     background-position: right center;
     min-height: 250px;
+    background-size: contain;
 
     img{
       padding-left: 26px;
@@ -85,6 +90,8 @@
   }
 
   &-title{
+    position: relative;
+    
     font-weight: 800;
     font-size: 40px;
     line-height: 36px;
@@ -94,7 +101,9 @@
 
     color: #FFFFFF;
 
-    span{
+    
+
+    .travel-pricing__span{
       font-weight: 400;
       font-size: 14px;
       line-height: 36px;
