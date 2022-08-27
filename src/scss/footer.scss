@@ -1,0 +1,30 @@
+.footer{
+  text-align: center;
+  padding-top: 285px;
+
+  .btn{
+    span{
+      padding: 17px 17px 15px 17px;
+
+      &::after{
+        display: none;
+      }
+    }
+  }
+}
+
+.footer__copyright{
+  padding-top: 27px;
+  padding-bottom: 34px;
+
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+
+  letter-spacing: 1.05px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+  opacity: 0.5;
+}
